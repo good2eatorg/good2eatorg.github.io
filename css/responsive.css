@@ -1,6 +1,6 @@
-/* lg */ 
+/* lg */
 @media (min-width: 1400px) {
-	
+
 }
 
 /* md */
@@ -26,7 +26,7 @@
 	#event-carousel .event-info {
 		width:64%;
 	}
-	.photo-info i {
+	.photo-info svg {
 		margin-top:5%;
 	}
 	.member-info {
@@ -41,13 +41,13 @@
 @media (min-width: 768px) and (max-width: 991px) {
 	#navigation .navbar-right {
 		margin-right: 0;
-	}	
+	}
 	#navigation .navbar-right li {
 		padding-left: 10px;
-	}	
+	}
 	#navigation .navbar-right li a {
 		font-size:14px;
-	}	
+	}
 	.top-bar {
 		right:70px;
 	}
@@ -99,11 +99,11 @@
 	#video-section .btn-primary {
 		padding:10px 12px;
 	}
-	.single-post .post-image, 
+	.single-post .post-image,
 	.single-post .post-details {
 		width:100%;
 	}
-	.photo-info i {
+	.photo-info svg {
 		margin-top:5%;
 	}
 	#contact .contact-info {
@@ -117,7 +117,7 @@
 	}
 	.member-info {
 		padding:15px;
-	}	
+	}
 	.entry-header img {
 		height:auto;
 	}
@@ -153,10 +153,10 @@
 	.field-toggle {
 		top:3px;
 	}
-	#navigation .navbar-fixed-top .search i {
+	#navigation .navbar-fixed-top .search svg {
 		top:10px;
 	}
-	.search i {
+	.search svg.fa-search {
 		top:-30px;
 		right:60px;
 	}
@@ -219,11 +219,11 @@
 	#cause-list-carousel .col-sm-4 {
 		margin-bottom:25px;
 	}
-	#cause-list .carousel-indicators, 
+	#cause-list .carousel-indicators,
 	#event-carousel .carousel-indicators {
 		top:-52px;
 	}
-	
+
 	#member-carousel .carousel-indicators {
 		top:-50px;
 	}
@@ -239,8 +239,8 @@
 	#event-carousel .carousel-indicators {
 		top:-70px;
 	}
-	#member-carousel .col-sm-4, 
-	#photo-gallery .col-sm-3, 
+	#member-carousel .col-sm-4,
+	#photo-gallery .col-sm-3,
 	#partner-carousel .col-sm-2 {
 		width:50%;
 		float:left;
@@ -269,7 +269,7 @@
 		min-height:210px;
 		min-width:210px;
 	}
-	
+
 	/*Blog Single*/
 	#blog-details {
 		margin-top: 110px;
@@ -284,16 +284,16 @@
 		font-size: 15px;
 		line-height: 27px;
 		padding: 14px;
-	}	
+	}
 	.author-details {
 		text-align:center;
 	}
-	.author-details a.pull-left, 
+	.author-details a.pull-left,
 	.comments-area a.pull-left{
 		display: inline-block;
 		float: none !important;
 		margin-bottom:15px;
-	}	
+	}
 	.parent.media-list {
 		margin-bottom: 35px;
 		margin-left: 35px;
@@ -305,11 +305,11 @@
 	.search-form {
 		height:34px;
 		top:62px;
-	}	
+	}
 	.navbar-brand h1 {
 		margin-top:0;
-	}	
-	#video-section #support h1, 
+	}
+	#video-section #support h1,
 	.section-title h1 {
 		font-size:25px;
 	}
@@ -318,15 +318,22 @@
 	}
 	#about-carousel {
 		margin-bottom:25px;
-	}	
+	}
 	#navigation .navbar-right li a span:after {
 		background-color:#fff;
 	}
 	.navbar-fixed-top .navbar-brand {
 		padding-top:5px;
-	}	
+	}
 	#navigation .navbar-fixed-top .navbar-brand img {
 		max-width:60%;
+		margin-left: 0;
+		display: inline-block;
+		vertical-align: bottom;
+	}
+	#navigation .navbar-fixed-top .navbar-brand h1 span {
+		vertical-align: bottom;
+		vertical-align: -webkit-baseline-middle;
 	}
 	#navigation .navbar-fixed-top .navbar-right li a {
 		font-size:14px;
@@ -335,10 +342,10 @@
 	#navigation .navbar-fixed-top .search {
 		top:5px;
 	}
-	#navigation .navbar-fixed-top .search i {
+	#navigation .navbar-fixed-top .search svg {
 		top:14px;
 	}
-	#single-blog-page #navigation .navbar-fixed-top .search i {
+	#single-blog-page #navigation .navbar-fixed-top .search svg {
 		top:-23px;
 	}
 	#single-blog-page #navigation .navbar-fixed-top .navbar-right li a {
@@ -349,7 +356,7 @@
 	#coming-soon h1 {
 		font-size:30px;
 	}
-	#coming-soon i {
+	#coming-soon svg {
 		margin:0 2px;
 	}
 	#countdown li span {
@@ -395,11 +402,11 @@
 	.single-post .post-image {
 		width:100%;
 		margin-bottom:25px;
-	} 
+	}
 	.single-post .post-details {
 		width:100%;
 	}
-	#member-carousel .col-sm-3, 
+	#member-carousel .col-sm-3,
 	#photo-gallery .col-sm-2{
 		width:100%;
 		float:none;
@@ -424,7 +431,7 @@
 		min-height:100%;
 		min-width:100%;
 	}
-	.photo-info i {
+	.photo-info svg {
 		margin-top:0;
 	}
 	.carousel-caption .watch-video {
@@ -432,21 +439,21 @@
 		margin-left:0;
 	}
 	/*Error Fixed*/
-	.search i {
+	.search svg {
 		top: -30px;
 	}
 	#member-carousel .carousel-indicators {
 		top:-50px;
 	}
-	#contact i {
+	#contact svg {
 		font-size:36px;
 	}
 	#event-carousel .event-info {
 		width:175px;
 	}
-	
+
 	/*Single Blog*/
-	
-	
+
+
 }
 
